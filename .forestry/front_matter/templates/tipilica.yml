@@ -1,4 +1,19 @@
 ---
 label: tipilica
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
+  description: desc1
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: text
